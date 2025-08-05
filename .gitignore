@@ -1,3 +1,4 @@
+
 # Ignorar dependências
 node_modules/
 
@@ -11,3 +12,18 @@ cypress/videos/
 # Ignorar logs
 *.log
 npm-debug.log*
+=======
+# Ignora a pasta de dependências do Node.js
+node_modules/
+
+# Ignora pastas com gravações de testes do Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Ignora arquivos temporários
+*.log
+npm-debug.log*
+.yarn-integrity
+
+# Ignora configurações do VS Code
+.vscode/
