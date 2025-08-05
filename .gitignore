@@ -1,0 +1,13 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar vídeos e prints do Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Ignorar configurações de ambiente local
+.vscode/
+
+# Ignorar logs
+*.log
+npm-debug.log*
